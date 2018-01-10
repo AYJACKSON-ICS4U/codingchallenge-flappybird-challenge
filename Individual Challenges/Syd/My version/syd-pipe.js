@@ -4,6 +4,7 @@ function Pipe() {
     this.x = width;
     this.w = 20;
     this.speed = 2;
+    this.score = 0;
     
     this.highlight = false;
     
@@ -14,6 +15,7 @@ function Pipe() {
                 return true;
             }
         }
+        this.score +=1; 
         this.highlight = false;
         return false;
     }
