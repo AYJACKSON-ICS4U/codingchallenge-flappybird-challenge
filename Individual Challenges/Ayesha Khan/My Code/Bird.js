@@ -1,4 +1,4 @@
-//bird function
+///bird function
 
 function Bird() {
   this.y = height/2;
