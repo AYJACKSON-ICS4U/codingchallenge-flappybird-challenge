@@ -6,7 +6,6 @@ function Pipe() {
   this.x = width;
   this.w = 20;
   this.speed = 2;
-
   this.highlight = false;
 
 
@@ -19,6 +18,12 @@ function Pipe() {
     }
     this.highlight = false;
     return false;
+  }
+
+  this.crosses = function(bird){
+    if (bird.x > this.x && bird.x < this.x + this.w){
+      return true;
+    }
   }
 
   this.show = function() {
