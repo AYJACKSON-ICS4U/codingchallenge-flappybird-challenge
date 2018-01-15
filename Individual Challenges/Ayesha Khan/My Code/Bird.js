@@ -1,5 +1,3 @@
-///bird function
-
 function Bird() {
   this.y = height/2;
   this.x = 64;
