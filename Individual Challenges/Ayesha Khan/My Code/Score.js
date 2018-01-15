@@ -9,7 +9,7 @@ function Score()
   this.c = function()
   {
     text("SCORE:", this.cx, this.cy - 20);
-    text(this.s, this.cx + 60, this.cy);
+    text(Math.ceil(this.s), this.cx + 60, this.cy);
     textSize(20);
     fill(255);
   }
@@ -17,7 +17,7 @@ function Score()
 
   this.cu = function()
   {
-    this.s += 1;
+    this.s += 1/9;
     console.log(this.s);
   }
 }
