@@ -9,4 +9,6 @@ Today I have:
 * I have watched the entire coding challenge video
 * I have finished coding with Dan Shiffman, meaning that my game is now at the same point his is 
 
-
+## January 15th
+Today I have:
+* played with the different variables, for example gravity and the lift force, to find my preferred values for my game
