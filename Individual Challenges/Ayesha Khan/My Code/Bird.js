@@ -1,3 +1,5 @@
+//Bird Constructor
+
 function Bird() {
   this.y = height/2;
   this.x = 64;
@@ -9,6 +11,7 @@ function Bird() {
   this.show = function(){
     fill(255);
     ellipse( this.x, this.y, 32, 32);
+    ellipse(this.x+5, this.y-5, 10,10);
   }
 
   this.up = function(){
