@@ -1,5 +1,4 @@
-#### Here are some ideas that I have got to make my game different:
-
-* add a counter for how many pipes the bird has successfully flown through
-* restart the game when the user hits a pipe
-* increase the speed of the pipes as the user advances to make it more challenging
+## I have made my own version by: 
+* I changed the bird image
+* I played with the colours and variables, for instance the gravity
+* I found a way to increase the speed of the pipes so that they speed up as they approach the bird to make it more of a challenge for the players. I did this by creating a counter and every time this counter does a modular division of ten and gives an answer of zero, the speed increases
