@@ -7,8 +7,13 @@ function Bird() {
     this.velocity = 0;
     
     this.show = function(){
-        fill(255);
+        fill(0, 200, 300);
         ellipse(this.x,this.y, 30, 30);
+        noStroke();
+        fill(0);
+        ellipse(this.x+5,this.y-5,6,6)
+        fill(242, 255, 0);
+        triangle(this.x+15,this.y-4,this.x+15,this.y+4,this.x+30,this.y)
     }
     
     this.up = function() {
