@@ -12,3 +12,7 @@ Today I have:
 ## January 15th
 Today I have:
 * played with the different variables, for example gravity and the lift force, to find my preferred values for my game
+
+## January 16th
+Today I have:
+* created my own version of the game where the speed of the pipes changes as they travel!
