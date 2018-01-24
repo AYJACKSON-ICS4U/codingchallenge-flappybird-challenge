@@ -1,4 +1,4 @@
-//Bird Constructor
+//bird function
 
 function Bird() {
   this.y = height/2;
@@ -9,10 +9,14 @@ function Bird() {
   this.velocity = 0;
 
   this.show = function(){
-    fill(255);
+    fill(231, 76, 60);
     ellipse( this.x, this.y, 32, 32);
+    fill(225);
     ellipse(this.x+5, this.y-5, 10,10);
-  }
+    fill(0);
+    ellipse(this.x+5, this.y-5, 5,5);
+    fill(243, 156, 18);
+    triangle(this.x+15,this.y-4,this.x+15,this.y+4,this.x+30,this.y)  }
 
   this.up = function(){
     this.velocity += this.lift;
